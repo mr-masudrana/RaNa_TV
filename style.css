@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    flex-direction: column;
+}
+
+.player-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+}
+
+/* Make the video player sticky */
+.video-wrapper {
+    position: sticky;
+    top: 0;
+    background: #000;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+video {
+    width: 100%;
+    max-width: 800px;
+    border: 2px solid #fff;
+}
+
+/* Make the category tabs sticky */
+.category-tabs {
+    position: sticky;
+    top: 120px; /* Adjust based on video height */
+    background: #111;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    z-index: 999;
+}
+
+.category-tabs button {
+    padding: 10px;
+    background: #222;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.category-tabs button:hover, 
+.category-tabs button.active {
+    background: #fff;
+    color: #000;
+}
+
+/* Channel List Grid */
+.channel-list {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    max-height: 400px; /* Set a height so scrolling is visible */
+    overflow-y: auto; /* Enable scrolling */
+}
+
+.channel-list button {
+    padding: 10px;
+    background: #444;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    transition: background 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.channel-list img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.channel-list button:hover {
+    background: #666;
+}

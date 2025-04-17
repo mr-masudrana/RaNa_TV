@@ -1,0 +1,14 @@
+{
+    "channels": [
+        { "name": "Al Jazera", "logo": "http://example.com/logo1.png", "url": "https://live-hls-web-aje.getaj.net/AJE/03.m3u8", "category": "English" },
+        { "name": "DW", "logo": "http://example.com/logo2.png", "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream03/streamPlaylist.m3u8", "category": "Others" },
+        { "name": "Channel 1", "logo": "http://example.com/logo1.png", "url": "http://example.com/stream1.m3u8", "category": "Entertainment" },
+        { "name": "Channel 2", "logo": "http://example.com/logo2.png", "url": "http://example.com/stream2.m3u8", "category": "Sports" },
+        { "name": "Channel 3", "logo": "http://example.com/logo3.png", "url": "http://example.com/stream3.m3u8", "category": "Movies" },
+        { "name": "Channel 4", "logo": "http://example.com/logo4.png", "url": "http://example.com/stream4.m3u8", "category": "News" },
+        { "name": "Channel 5", "logo": "http://example.com/logo5.png", "url": "http://example.com/stream5.m3u8", "category": "Sports" },
+        { "name": "Channel 6", "logo": "http://example.com/logo6.png", "url": "http://example.com/stream6.m3u8", "category": "News" },
+        { "name": "Channel 7", "logo": "http://example.com/logo7.png", "url": "http://example.com/stream7.m3u8", "category": "Entertainment" },
+        { "name": "Channel 8", "logo": "http://example.com/logo8.png", "url": "http://example.com/stream8.m3u8", "category": "Movies" }
+    ]
+}
